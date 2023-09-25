@@ -1,12 +1,13 @@
 # sortAndUnique-Solidity
 
 In the constructor some random values were push into the data array.
-![3](https://github.com/ulhaqFaizan/sortAndUnique-Solidity/assets/79333547/498c9c3e-fb36-40d5-98d6-af2ae4ae6f17)
-
-
-This Shows the output of the getSort function.
-![image](https://github.com/ulhaqFaizan/sortAndUnique-Solidity/assets/79333547/1e7122a4-a68a-4d8e-9609-eaf9aed87f91)
+![image](https://github.com/ulhaqFaizan/sortAndUnique-Solidity/assets/79333547/477cbd64-4526-4102-b140-386d258e3bdc)
 
 
 This shows the output of getUnique functions.
-![image](https://github.com/ulhaqFaizan/sortAndUnique-Solidity/assets/79333547/939b6195-55fa-4d54-8add-794c25109f27)
+![image](https://github.com/ulhaqFaizan/sortAndUnique-Solidity/assets/79333547/b9b41777-c424-420a-ab3b-199a6ce86121)
+
+
+
+This Shows the output of the getSort function.
+![image](https://github.com/ulhaqFaizan/sortAndUnique-Solidity/assets/79333547/cc40031d-48da-4c0a-89da-d92bc24f34ca)
