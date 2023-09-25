@@ -3,7 +3,7 @@ pragma solidity ^0.8.18;
 
 library sortAndUnique {
     
-    function sort (uint[] storage _arr) public returns (uint[] storage){
+    function sort (uint[] storage _arr) internal returns (uint[] memory){
         
         uint n = _arr.length;
         bool sorted;
@@ -70,12 +70,15 @@ contract Test {
 
     function getSort() public returns (uint[] memory) {
 
-        return sortAndUnique.sort(data);
+        sortAndUnique.sort(data);
+        return data;
 
     }
 
-    function getUnique() public view returns (uint[] memory) {
-        return sortAndUnique.removeDuplicates(data);
+    function getUnique() public returns (uint[] memory){
+       uint[] memory uniqueArray = sortAndUnique.removeDuplicates(data);
+       data = uniqueArray;
+       return data;
     }
 
 
